@@ -1,0 +1,196 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: sans-serif;
+}
+
+.input
+{
+    position: relative;
+}
+.search
+{
+    position: absolute;
+    top: 1.8vh;
+    left: 28vw;
+}
+
+.items
+{
+    font-size: small;
+    border: 2px solid black;
+    text-align: center;
+}
+.categories
+{
+    justify-content: space-evenly;
+}
+   
+.collection
+{
+    position: relative;
+}
+
+.one{
+    position: absolute;
+    left: 0vw;
+}
+.specialbutton
+{
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    font-size:smaller;
+    font-weight: bold;
+   
+}
+
+.specialbutton:hover
+{
+    background-color: #ffffff;
+    color: #000;
+}
+.slider
+{
+    max-height: 70vh;
+    max-width: 100vw;
+   
+}
+.slider img
+{
+    max-height: 50vh;
+    padding-top: 5vh;
+}
+.box1
+{
+    height: 55vh;
+   
+    /* border: 2px solid black; */
+    background-color:#f1f3f6 ;
+}
+
+.box0
+{
+    display: flex;
+    margin-bottom:5vh ;
+}
+
+
+
+.offers
+{
+    position: relative;
+    height: 55vh;
+    width: 20vw;
+    background-color: rgba(0,0,0, 0.2);
+    text-align: center;
+   
+    color:black;
+    /* border: 2px solid black; */
+    /* background-image: url(images/best\ offeer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.offers h2{
+    margin-top: 20vh;
+    font-weight: lighter;
+}
+
+.items
+{
+    max-width: 80vw;
+    height: 55vh;
+    /* border: 2px solid orangered; */
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-around;
+    gap: 1vw;
+    border: none;
+}
+
+
+
+.offers button
+{
+ position: absolute;
+ top: 40vh;
+ left: 5vw;
+ background-color: blue;
+ color: #ffffff;
+ font-weight: bold;
+ width: 8vw;
+ border-radius: 10%;
+
+}
+.cards img
+{
+  height: 35vh;
+}
+
+.content h4,h5,h6
+{
+    padding-top: 1vh;
+    font-size:small;
+}
+
+.cards
+{
+    /* border:2px solid rgb(160, 157, 157); */
+    width: 30vw;
+}
+.footer
+{
+    margin: 10vh;
+}
+
+
+.onestop
+{
+    font-weight: normal;
+    font-size: smaller;
+}
+
+.footer2
+{
+    height: 70vh;
+    max-width: 100vw;
+    border: 2px solid black;
+    background-color:#172337 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer2 ul{
+    list-style: none;
+    color: rgb(184, 179, 179);
+    
+}
+
+.extra
+{
+    /* border: 2px solid orange; */
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.vl{
+   
+     border-left: 2px solid #353f51;
+     height: 30vh;
+     margin-left: 2vw;
+}
+.para
+{
+    color: rgb(184, 179, 179);
+   
+}
+.para pre{
+    font-family: sans-serif;
+}
